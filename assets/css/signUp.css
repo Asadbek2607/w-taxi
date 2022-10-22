@@ -1,0 +1,39 @@
+@import url(../css/minified.css);
+/* .auth-sidebar-content{
+    background-color: #fb9403;
+    background-image: url(../img/signUp/fabric-light.png);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    margin-top: 30px;
+    height: 100vh;
+} */
+
+* a{
+    text-decoration: none;
+    color:#000;
+}
+
+.chooseRoleContent{
+    margin:0 350px;
+}
+
+.logo{
+    width:150px;
+}
+
+.logo:hover{
+    filter: invert(71%) sepia(34%) saturate(5291%) hue-rotate(358deg) brightness(98%) contrast(100%);
+}
+
+.role--taxiDriver a:hover{
+    background-color:#e7e7e7;
+    color:#000;
+}
+
+.signupContent{
+    margin:0 auto;
+}
+
+/*/COLOR PICKER FOR SIGNUP/*/
+

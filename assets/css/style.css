@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap');
+@import url(../css/minified.css);
+
+
+/* body {
+    overflow-y:hidden;
+} */
+
+* a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: url(../img/headerbg.jpg) no-repeat center fixed;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+#logo{
+    filter: invert(100%) sepia(1%) saturate(2410%) hue-rotate(31deg) brightness(128%) contrast(100%);
+}
+
+#logo:hover{
+    filter: invert(71%) sepia(34%) saturate(5291%) hue-rotate(358deg) brightness(98%) contrast(100%);
+}
+
+.opacity-background{
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+#signupBtn:hover{
+
+    border-color: #fb9403;
+    transition: all 0.5s ease;
+}
+
+#loginBtn:hover{
+
+    border-color: #fb9403;
+    transition: all 0.5s ease;
+}
+
+#startBtn:hover{
+    background-color:#fb9403;
+    border-color: #fb9403;
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.choose-role{
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+#switchPassBtn:hover{
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: all 0.5s ease;
+    transform: scale(1.2);
+
+}
+
+#switchDriverBtn:hover{
+    background-color: #dc3545;
+    border-color: #dc3545;
+    transition: all 0.5s ease;
+    transform: scale(1.2);
+
+}
+
+/* zoom effect */
+.role-card__pass:hover img{
+    box-shadow: 15px 13px 192px 37px rgba(40,212,5,0.86);
+-webkit-box-shadow: 15px 13px 192px 37px rgba(40,212,5,0.86);
+-moz-box-shadow: 15px 13px 192px 37px rgba(40,212,5,0.86);
+
+
+}
+
+.role-card__driver img{
+    box-shadow: -3px 6px 66px 20px rgba(250,20,20,0.96);
+    -webkit-box-shadow: -3px 6px 66px 20px rgba(250,20,20,0.96);
+    -moz-box-shadow: -3px 6px 66px 20px rgba(250,20,20,0.96);
+}
+.role-card img{
+    width: 80%;
+    border-radius: 4%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+
+}
+
+.role-card:hover img {
+    transform: scale(1.1, 1.1);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.role-card div{
+    position: absolute;
+    bottom:50%;
+    right:50%;
+    z-index: 2;
+    width:150px;
+    height:60px;
+    margin:0px -75px -80px 0px;
+}
+
+/*
+===============
+Footer
+===============
+*/
+.footer {
+  padding-bottom: 2rem;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display:grid;
+  place-items: center;
+  justify-content: center;
+}
+.footer .social-icons {
+  margin-bottom: 2rem;
+  display: grid;
+  margin-top: 3rem;
+  width: 30rem;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
+.footer .social-icon{
+  color: hsl(209, 78%, 60%);
+}
+.footer .social-icon:hover {
+  color: hsl(213, 100%, 96%);
+}
+.footer p {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.social-icon {
+  font-size: 1.7rem;
+
+  cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+#logoFooter{
+    filter: invert(100%) sepia(1%) saturate(2410%) hue-rotate(31deg) brightness(128%) contrast(100%);
+    width: 30%;
+}
+#logoFooter:hover{
+    filter: invert(71%) sepia(34%) saturate(5291%) hue-rotate(358deg) brightness(98%) contrast(100%);
+    cursor: pointer;
+}
