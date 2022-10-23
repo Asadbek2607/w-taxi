@@ -35,5 +35,60 @@
     margin:0 auto;
 }
 
-/*/COLOR PICKER FOR SIGNUP/*/
+
+
+.fa-solid,
+  .fa-brands,
+  .fa-sharp-solid {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.2em;
+    padding: 0.2em;
+  }
+
+  /* custom styling for specific icons */
+  .fa-black {
+    color: rgb(0, 0, 0);
+  }
+
+  .fa-yellow{
+    color: #FFFF00;
+  }
+
+  .fa-white{
+    color: #fff;
+    background-color: rgb(190, 190, 190);
+  }
+
+  .fa-red{
+    color: #ff0000;
+  }
+  .fa-green{
+    color: #00ff00;
+  }
+
+  .fa-gray{
+    color: #808080;
+  }
+  .fa-blue{
+    color: #0000ff;
+  }
+  .fa-brown{
+    color: #a52a2a;
+  }
+
+  .fa-silver{
+    color: #c0c0c0;
+  }
+
+  .fa-orange{
+    color: #FFA500;
+  }
+
+  .fa-lightBlue{
+    color: #ADD8E6;
+  }
+
+  .fa-user-ninja.vanished {
+    opacity: 0.2;
+  }
 

@@ -12,9 +12,15 @@
     text-decoration: none;
 }
 
+.fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+    line-height: 2 !important;
+  }
+
 html{
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 header{
@@ -62,6 +68,22 @@ header{
     background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100vh;
 }
+
+@media screen and (max-width: 576px) {
+    .header{
+        height: auto;
+    }
+    .choose-role{
+        height: auto;
+    }
+
+    .role-card__pass{
+        margin-bottom: 30px;
+    }
+
+}
+
+
 
 #switchPassBtn:hover{
     background-color: #28a745;
@@ -172,4 +194,59 @@ ul {
 #logoFooter:hover{
     filter: invert(71%) sepia(34%) saturate(5291%) hue-rotate(358deg) brightness(98%) contrast(100%);
     cursor: pointer;
+}
+
+
+
+/*/LOGIN PAGE/*/
+
+.loginPage{
+    background: #1D4350;  /* fallback for old browsers */
+    background: url(../img/login/polygon-scatter.svg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+#loginLogo{
+    filter:invert(5%) sepia(91%) saturate(4363%) hue-rotate(224deg) brightness(59%) contrast(115%);
+}
+
+#loginLogo:hover{
+    filter: invert(71%) sepia(34%) saturate(5291%) hue-rotate(358deg) brightness(98%) contrast(100%);
+}
+
+.loginCard{
+   background: rgba(255, 255, 255, 0.5);
+    color: #001829;
+    font-family: 'Montserrat', sans-serif;
+
+    box-shadow: 0px 9px 18px -7px rgba(255,255,255,0.65);
+    -webkit-box-shadow: 0px 9px 18px -7px rgba(255,255,255,0.65);
+    -moz-box-shadow: 0px 9px 18px -7px rgba(255,255,255,0.65);
+}
+
+.btn-login{
+    background-color: #001829;
+    border-color: #001829;
+    transition: all 0.5s ease;
+    color:#fff;
+}
+
+.btn-login:hover{
+    background-color: #fb9403;
+    border-color: #fb9403;
+    transition: all 0.5s ease;
+}
+
+
+.loginLink{
+    font-size: 15px;
+}
+.loginLink a{
+    color: #f3a840;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginLink a:hover{
+    color: #001829;
+
 }

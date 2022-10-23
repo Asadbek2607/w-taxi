@@ -8,6 +8,8 @@
     <!-- bootstrap 5.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.2.0-web/css/all.min.css">
+
     <link rel="stylesheet" href="/assets/css/signUp.css">
 
     <title>Sign up | W-Taxi</title>
@@ -162,9 +164,18 @@
                                     <div class="col-md-4 gap-3 mb-3">
                                         <label class="form-label" for="carColor">Rangi</label>
                                         <select class="form-select form-control" aria-label="car color">
-                                            <option value="black">Qora</option>
-                                            <option value="black">Oq</option>
-                                            <option value="black">Sariq</option>
+                                            <option value="black" class="fa-solid fa-circle fa-black">&#xf111; Qora
+                                            </option>
+                                            <option value="white" class="fa-solid fa-circle fa-white" selected>&#xf111; Oq </option>
+                                            <option value="yellow" class="fa-solid fa-circle fa-yellow">&#xf111; Sariq</option>
+                                            <option value="red" class="fa-solid fa-circle fa-red">&#xf111; Qizil</option>
+                                            <option value="green" class="fa-solid fa-circle fa-green">&#xf111; Yashil</option>
+                                            <option value="gray" class="fa-solid fa-circle fa-gray">&#xf111; Kulrang</option>
+                                            <option value="blue" class="fa-solid fa-circle fa-blue">&#xf111; Ko'k</option>
+                                            <option value="brown" class="fa-solid fa-circle fa-brown">&#xf111; Jigarrang</option>
+                                            <option value="silver" class="fa-solid fa-circle fa-silver">&#xf111; Kumushrang</option>
+                                            <option value="orange" class="fa-solid fa-circle fa-orange">&#xf111; Zarg'aldoq</option>
+                                            <option value="lightBlue" class="fa-solid fa-circle fa-lightBlue">&#xf111; Ochiq ko'k</option>
                                         </select>
                                     </div>
 
@@ -193,7 +204,6 @@
                                 </div>
                             </div>
                         </fieldset>
-
 
 
                         <fieldset class="row form-control mb-3">

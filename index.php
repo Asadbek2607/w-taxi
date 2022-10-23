@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
      <!-- font-awesome -->
-     <link rel="stylesheet" href="assets/fontawesome-free-5.12.1-web/css/all.min.css"/>
+     <link rel="stylesheet" href="/assets/fontawesome-free-6.2.0-web/css/all.min.css">
     <title>W Taxi || Homepage</title>
 </head>
 <body>
@@ -43,23 +43,28 @@
                     </div>
                 </header>
                 <div class="row choose-role text-center justify-content-center gap-5" id="chooseRole">
-                    <h2 class="text-white mt-3 ">Haydovchimisiz yoki yo'lovchi?</h2>
-                    <div class="col col-sm-4 p-0">
+                    <h2 class="text-white mt-5 mt-lg-2">Haydovchimisiz yoki yo'lovchi?</h2>
+                    <div class="col-6 col-md-5 col-lg-4 p-0">
                         <div class="role-card role-card__driver position-relative">
-                            <img src="/assets/img/driver.jpg" class="img-fluid" alt="...">
+                            <a href="/assets/pages/signUp/driverSignup.php">
+                                <img src="/assets/img/driver.jpg" class="img-fluid" alt="...">
+                            </a>
                             <div>
                                 <a href="/assets/pages/signUp/driverSignup.php" class="btn btn-lg btn-danger" id="switchDriverBtn">Haydovchi</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col col-sm-4 p-0">
+                    <div class="col-6 col-md-5 col-lg-4 p-0">
                         <div class="role-card role-card__pass position-relative">
-                            <img src="/assets/img/passenger.jpg" class="img-fluid" alt="...">
+                            <a href="/assets/pages/signUp/passengerSignup.php">
+                                <img src="/assets/img/passenger.jpg" class="img-fluid" alt="...">
+                            </a>
                             <div>
                                 <a href="/assets/pages/signUp/passengerSignup.php" class="btn btn-lg btn-success"  id="switchPassBtn">Yo'lovchi</a>
                             </div>
                         </div>
                     </div>
+
                 </div> <!-- END OF choose-role -->
 
                 <!-- FOOTER -->
@@ -70,7 +75,7 @@
                         <ul class="social-icons">
                             <li>
                                 <a href="https://www.facebook.com/KenjabaevAsadbek" class="social-icon">
-                                <i class="fab fa-facebook"></i>
+                                <i class="fa-brands fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
