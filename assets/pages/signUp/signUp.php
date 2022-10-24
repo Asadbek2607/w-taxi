@@ -15,7 +15,7 @@
        <div class="row mb-3">
             <div class="col m-3">
                  <a class="" href="../../../index.php">
-                    <img class="img-fluid logo" id="logo" src="../../img/logo.svg" alt="logo">
+                    <img class="img-fluid logo" src="../../img/logo.svg" alt="logo">
                 </a>
             </div>
        </div>

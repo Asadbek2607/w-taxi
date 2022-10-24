@@ -18,12 +18,12 @@
             <div class="col">
                 <header>
                     <div class="container-xl p-0">
-                        <nav class="navbar navbar-expand-lg">
+                        <nav class="navbar navbar-expand-md">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="index.php">
-                                    <img id="logo" src="assets/img/logo.svg" alt="logo">
+                                    <img id="logo" class="w-75" src="assets/img/logo.svg" alt="logo">
                                 </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="true" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                                 </button>
                                 <div class="collapse navbar-collapse" id="navbarScroll">
@@ -42,29 +42,33 @@
                         </div>
                     </div>
                 </header>
-                <div class="row choose-role text-center justify-content-center gap-5" id="chooseRole">
-                    <h2 class="text-white mt-5 mt-lg-2">Haydovchimisiz yoki yo'lovchi?</h2>
-                    <div class="col-6 col-md-5 col-lg-4 p-0">
-                        <div class="role-card role-card__driver position-relative">
-                            <a href="/assets/pages/signUp/driverSignup.php">
-                                <img src="/assets/img/driver.jpg" class="img-fluid" alt="...">
-                            </a>
-                            <div>
-                                <a href="/assets/pages/signUp/driverSignup.php" class="btn btn-lg btn-danger" id="switchDriverBtn">Haydovchi</a>
+                <div class="row choose-role text-center" id="chooseRole">
+                    <div class="col mb-5">
+                        <h2 class="text-white mt-5 mt-lg-2">Haydovchimisiz yoki yo'lovchi?</h2>
+                        <div class="row row-md-12 justify-content-center gap-5 mt-5">
+                            <div class="col-8 col-md-5 col-lg-4 p-0">
+                                <div class="role-card role-card__driver position-relative">
+                                    <a href="/assets/pages/signUp/driverSignup.php">
+                                        <img src="/assets/img/driver.jpg" class="img-fluid" alt="...">
+                                    </a>
+                                    <div>
+                                        <a href="/assets/pages/signUp/driverSignup.php" class="btn btn-lg btn-danger" id="switchDriverBtn">Haydovchi</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-5 col-lg-4 p-0">
-                        <div class="role-card role-card__pass position-relative">
-                            <a href="/assets/pages/signUp/passengerSignup.php">
-                                <img src="/assets/img/passenger.jpg" class="img-fluid" alt="...">
-                            </a>
-                            <div>
-                                <a href="/assets/pages/signUp/passengerSignup.php" class="btn btn-lg btn-success"  id="switchPassBtn">Yo'lovchi</a>
-                            </div>
-                        </div>
-                    </div>
 
+                            <div class="col-8 col-md-5 col-lg-4 p-0">
+                                <div class="role-card role-card__pass position-relative">
+                                    <a href="/assets/pages/signUp/passengerSignup.php">
+                                        <img src="/assets/img/passenger.jpg" class="img-fluid" alt="...">
+                                    </a>
+                                    <div>
+                                        <a href="/assets/pages/signUp/passengerSignup.php" class="btn btn-lg btn-success"  id="switchPassBtn">Yo'lovchi</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div> <!-- END OF choose-role -->
 
                 <!-- FOOTER -->
@@ -72,7 +76,7 @@
                     <div class="col">
 
                         <!-- social icons -->
-                        <ul class="social-icons">
+                        <ul class="social-icons d-flex mb-4 mt-4 justify-content-center p-0 gap-5">
                             <li>
                                 <a href="https://www.facebook.com/KenjabaevAsadbek" class="social-icon">
                                 <i class="fa-brands fa-facebook"></i>

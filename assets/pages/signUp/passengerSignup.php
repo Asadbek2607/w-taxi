@@ -78,7 +78,7 @@
         <div class="row-6 d-flex justify-content-between mt-4">
             <div class="col-3 ms-5">
                 <a class="" href="../../../index.php">
-                    <img class="img-fluid logo" id="logo" src="../../img/logo.svg" alt="logo">
+                    <img class="img-fluid logo" src="../../img/logo.svg" alt="logo">
                 </a>
             </div>
             <div class="col-3">

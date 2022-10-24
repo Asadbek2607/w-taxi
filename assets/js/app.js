@@ -5,6 +5,8 @@ const roleTaxiDriver = document.getElementById('role--taxiDriver');
 const rolePassenger = document.getElementById('role--passenger');
 
 
+
+
 // Signup page - choose role
 
 roleTaxiDriver.addEventListener('click', () => {

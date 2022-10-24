@@ -81,7 +81,7 @@
         <div class="row-6 d-flex justify-content-between mt-4">
             <div class="col-3 ms-5">
                 <a class="" href="../../../index.php">
-                    <img class="img-fluid logo" id="logo" src="../../img/logo.svg" alt="logo">
+                    <img class="img-fluid logo" src="../../img/logo.svg" alt="logo">
                 </a>
             </div>
             <div class="col-3">
@@ -163,22 +163,32 @@
                                 <div class="row-8 mb-3 gap-5 d-flex">
                                     <div class="col-md-4 gap-3 mb-3">
                                         <label class="form-label" for="carColor">Rangi</label>
-                                        <select class="form-select form-control" aria-label="car color">
-                                            <option value="black" class="fa-solid fa-circle fa-black">&#xf111; Qora
+                                        <select id="mySelect" onchange="ChangedSelection()" class="form-select form-control fontAwesome" aria-label="car color" required >
+                                            <!-- <option value="" selected>Quyidagilardan tanlang</option> -->
+                                            <option aria-selected="true" value="black" class="fa-solid fa-circle fa-black">&#xf111;   Qora
                                             </option>
-                                            <option value="white" class="fa-solid fa-circle fa-white" selected>&#xf111; Oq </option>
-                                            <option value="yellow" class="fa-solid fa-circle fa-yellow">&#xf111; Sariq</option>
-                                            <option value="red" class="fa-solid fa-circle fa-red">&#xf111; Qizil</option>
-                                            <option value="green" class="fa-solid fa-circle fa-green">&#xf111; Yashil</option>
-                                            <option value="gray" class="fa-solid fa-circle fa-gray">&#xf111; Kulrang</option>
-                                            <option value="blue" class="fa-solid fa-circle fa-blue">&#xf111; Ko'k</option>
-                                            <option value="brown" class="fa-solid fa-circle fa-brown">&#xf111; Jigarrang</option>
-                                            <option value="silver" class="fa-solid fa-circle fa-silver">&#xf111; Kumushrang</option>
-                                            <option value="orange" class="fa-solid fa-circle fa-orange">&#xf111; Zarg'aldoq</option>
-                                            <option value="lightBlue" class="fa-solid fa-circle fa-lightBlue">&#xf111; Ochiq ko'k</option>
+                                            <option value="white" class="fa-solid fa-circle fa-white">&#xf111;   Oq </option>
+                                            <option value="yellow" class="fontAwesome fa-solid fa-circle fa-yellow">&#xf111;   Sariq</option>
+                                            <option value="red" class="fa-solid fa-circle fa-red">&#xf111;   Qizil</option>
+                                            <option value="green" class="fa-solid fa-circle fa-green">&#xf111;   Yashil</option>
+                                            <option value="gray" class="fa-solid fa-circle fa-gray">&#xf111;   Kulrang</option>
+                                            <option value="blue" class="fa-solid fa-circle fa-blue">&#xf111;   Ko'k</option>
+                                            <option value="brown" class="fa-solid fa-circle fa-brown">&#xf111;   Jigarrang</option>
+                                            <option value="silver" class="fa-solid fa-circle fa-silver">&#xf111;   Kumushrang</option>
+                                            <option value="orange" class="fa-solid fa-circle fa-orange">&#xf111;   Zarg'aldoq</option>
+                                            <option value="lightBlue" class="fa-solid fa-circle fa-lightBlue">&#xf111;   Ochiq ko'k</option>
                                         </select>
                                     </div>
+<script>
+    function ChangedSelection()
+    {
+    var x = document.getElementById("mySelect").selectedIndex;
+    var color =document.getElementsByTagName("option")[x].value;
+    var y = document.getElementById("mySelect");
+    y.style.color=color;
+    }
 
+</script>
                                     <div class="col-md-4 gap-3 mb-3">
                                         <label class="form-label" for="seatNumber">O'rindiqlar soni</label>
                                         <select class="form-select " aria-label="seat number">
@@ -210,13 +220,13 @@
 
                             <legend class="float-none w-auto">Kirish ma'lumotlari</legend>
                             <div class="col-12 col-sm-6 col-md-6 mb-3">
-                                <input class="form-control" type="text" id="username" name="username" value="" required placeholder="Foydalanuvchi nomi" />
+                                <input class="form-control fontAwesome fa-solid fa-user" type="text" id="username" name="username" value="" required placeholder="&#xf007;  Foydalanuvchi nomi" />
                             </div>
                             <div class="col-12 col-sm-6 col-md-6 mb-3">
-                                <input class="form-control" type="password" id="newPassword" name="password" value="" required placeholder="Yangi parol" />
+                                <input class="form-control fa-solid fa-lock fontAwesome" type="password" id="newPassword" name="password" value="" required placeholder="&#xf023;  Yangi parol" />
                             </div>
                             <div class="col-12 col-sm-6 col-md-6 mb-3 ">
-                                <input class="form-control" type="password" id="confirmPassword" name="confirm_pass" value="" required placeholder="Parolni tasdiqlang" />
+                                <input class="form-control fa-solid fa-lock fontAwesome" type="password" id="confirmPassword" name="confirm_pass" value="" required placeholder="&#xf023;  Parolni tasdiqlang" />
                             </div>
                         </fieldset>
 

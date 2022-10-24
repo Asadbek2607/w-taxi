@@ -23,6 +23,14 @@ html{
 
 }
 
+.navbar-toggler-icon {
+    background-image: url(../../assets/img/hamburgerIcon.svg);
+}
+
+.navbar-toggler:focus{
+    color: rgb(255, 255, 255);
+    }
+
 header{
     background: url(../img/headerbg.jpg) no-repeat center fixed;
     height: 100vh;
@@ -62,11 +70,14 @@ header{
     transform: scale(1.1);
 }
 
+
+/* CHOOSE ROLE SECTION *//*///////////////////////////////////////*/
+
 .choose-role{
     background: #1D4350;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100vh;
+
 }
 
 @media screen and (max-width: 576px) {
@@ -154,14 +165,7 @@ Footer
   place-items: center;
   justify-content: center;
 }
-.footer .social-icons {
-  margin-bottom: 2rem;
-  display: grid;
-  margin-top: 3rem;
-  width: 30rem;
-  grid-template-columns: repeat(5, 1fr);
-  justify-items: center;
-}
+
 
 .footer .social-icon{
   color: hsl(209, 78%, 60%);
